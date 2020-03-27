@@ -48,8 +48,8 @@ def collect_leads(lead_data):
 # result['publish_date'][0:19] + result['publish_date'][23:]
 
 def makeParams(query):
-    API_KEY = 'gWSb73PtNBtYufU04rzVl8gK'
-    request_url = 'https://api.trade.gov/v1/trade_leads/search?api_key=' + API_KEY + '&q=' + query
+    API_KEY = "api key"
+    request_url = 'end_point url' + API_KEY + '&q=' + query
     return request_url
 
 def parse_request(url):
